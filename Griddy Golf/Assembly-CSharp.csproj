@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E621477D-1D1F-603E-C426-F35A413E3A4E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\DataContainer.cs" />
+    <Compile Include="Assets\JMO Assets\Toony Colors\Demo\AutoRotateObject.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\(Unity Pro) NavMesh Pathfinding\Agent.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\3D integration\App.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\3D integration\Arrow.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\Clipping\ClipSprites.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\DragTest\DragTest.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\DragTest\DragTestMain.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\Multi Resolution Art\MultiResolution.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\Persistance\PersistentSprite.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\RotateTowards\TestRotateTowards.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\OTTextChalc.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\OTTextImages.cs" />
+    <Compile Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\OTTextPortago.cs" />
+    <Compile Include="Assets\Orthello\Examples\1 - Paralax scrolling FilledSprite\CExample1.cs" />
+    <Compile Include="Assets\Orthello\Examples\2 - Moving collidable sprites\CBlock2.cs" />
+    <Compile Include="Assets\Orthello\Examples\2 - Moving collidable sprites\CExample2.cs" />
+    <Compile Include="Assets\Orthello\Examples\2 - Moving collidable sprites\CStar2.cs" />
+    <Compile Include="Assets\Orthello\Examples\3 - Shooting Asteroids\CAsteroid3.cs" />
+    <Compile Include="Assets\Orthello\Examples\3 - Shooting Asteroids\CBullet3.cs" />
+    <Compile Include="Assets\Orthello\Examples\3 - Shooting Asteroids\CExample3.cs" />
+    <Compile Include="Assets\Orthello\Examples\4 - Follow Target View\CExample4.cs" />
+    <Compile Include="Assets\Orthello\Examples\4 - Follow Target View\CMover4.cs" />
+    <Compile Include="Assets\Orthello\Examples\5 - Creating At Runtime\CExample5.cs" />
+    <Compile Include="Assets\Orthello\Examples\6 - Physics\CExample6.cs" />
+    <Compile Include="Assets\Orthello\Examples\7 - Tweening\CExample7.cs" />
+    <Compile Include="Assets\Orthello\Examples\7 - Tweening\CStar7_1.cs" />
+    <Compile Include="Assets\Orthello\Examples\7 - Tweening\CStar7_2.cs" />
+    <Compile Include="Assets\Orthello\Examples\8 - Prefab-Support\test8.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Animation\OTMovementController.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Data\OTDataReader.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Data\OTTextDataReader.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Data\OTXMLDataReader.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\OTView.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTAtlasData.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlas.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasBMFontXml.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasCocos2D.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasCocos2DFnt.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasImport.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasImportText.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasImportXML.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasOGRE.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasSparrow.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasZwoptex.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTAnimatingSprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTAnimatingSpritePassive.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTAnimation.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTAnimationFrameset.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTCircleSprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTClipSprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTClippingAreaSprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTContainer.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTFilledSprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTGradientSprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTGridSprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTPolygonSprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTScale9Sprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTSprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTSpriteSheet.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTTextSprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Graphics\Sprites\OTUnitySprite.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEase.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseBackIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseBackInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseBackOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseBounceIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseBounceInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseBounceOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseCircIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseCircInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseCircOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseCubicIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseCubicInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseCubicOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseElasticIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseElasticInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseElasticOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseExpoIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseExpoInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseExpoOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseLinear.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseQuadIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseQuadInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseQuadOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseQuartIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseQuartInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseQuartOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseQuintIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseQuintInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseQuintOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseSineIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseSineInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseSineOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseStrongIn.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseStrongInOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEaseStrongOut.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTEasing.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTTween.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\Tweening\OTTweenController.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OT.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTController.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTDevTrace.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTExtensions.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTHelper.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTMatRef.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTObject.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTObjectType.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTPB.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTSounds.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTTimeCycle.cs" />
+    <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTTouch.cs" />
+    <Compile Include="Assets\Scripts\DotsCollider.cs" />
+    <Compile Include="Assets\Scripts\Drag2DObject.cs" />
+    <Compile Include="Assets\Scripts\DrawLine.cs" />
+    <Compile Include="Assets\Scripts\Grid\CreateLines.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\AnglesText.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\BallController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\BounceSound.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\GameObjectController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\GridController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\GridLines.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\ManipulateVertices.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\MenuController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\TextController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\TileController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\TileDotsController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\TriangleController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Main Level\WinLevelController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Relative Position and Location\ResolutionControllers\ResolutionController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Relative Position and Location\ResolutionControllers\ResolutionControllerFifthCase.cs" />
+    <Compile Include="Assets\Scripts\Grid\Relative Position and Location\ResolutionControllers\ResolutionControllerFourthCase.cs" />
+    <Compile Include="Assets\Scripts\Grid\Relative Position and Location\ResolutionControllers\ResolutionControllerSecondCase.cs" />
+    <Compile Include="Assets\Scripts\Grid\Relative Position and Location\ResolutionControllers\ResolutionControllerThirdCase.cs" />
+    <Compile Include="Assets\Scripts\Grid\Relative Position and Location\SetCameraSize.cs" />
+    <Compile Include="Assets\Scripts\Grid\Relative Position and Location\SetLocalPosition.cs" />
+    <Compile Include="Assets\Scripts\Grid\Relative Position and Location\SetLocalScale.cs" />
+    <Compile Include="Assets\Scripts\Grid\Sound FX\ImpactSound.cs" />
+    <Compile Include="Assets\Scripts\Grid\Sound FX\ReleaseSound.cs" />
+    <Compile Include="Assets\Scripts\Grid\Sound FX\WinSound.cs" />
+    <Compile Include="Assets\Scripts\Grid\Title Screen\BallControllerTitle.cs" />
+    <Compile Include="Assets\Scripts\Grid\Title Screen\BounceSoundTitle.cs" />
+    <Compile Include="Assets\Scripts\Grid\Title Screen\ButtonController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Title Screen\GridLinesTitle.cs" />
+    <Compile Include="Assets\Scripts\Grid\Title Screen\SkipIntroController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Title Screen\TileControllerTitle.cs" />
+    <Compile Include="Assets\Scripts\Grid\Title Screen\TriangleControllerTitle.cs" />
+    <Compile Include="Assets\Scripts\Grid\Transistions\TransistionController.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\AnglesTextTut01.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\BallControllerTut01.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\BounceSoundTut01.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\GridControllerTut01.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\GridLinesTut01.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\ManipulateVerticesTut01.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\TextControllerTut01.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\TileControllerTut01.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\TileDotsControllerTut01.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\TriangleControllerTut01.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 01\TutorialControllerLvl1.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\AnglesTextTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\BallControllerTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\BounceSoundTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\GridControllerTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\GridLinesTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\HelperDotControllerTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\InstantiateHelperDotTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\ManipulateVerticesTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\TextControllerTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\TileControllerTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\TileDotsControllerTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\TriangleControllerTut02.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 02\TutorialControllerLvl2.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\AnglesTextTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\BallControllerTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\BounceSoundTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\GridControllerTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\GridLinesTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\HelperDotControllerTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\InstantiateHelperDotTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\ManipulateVerticesTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\TextControllerTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\TileControllerTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\TileDotsControllerTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\TriangleControllerTut03.cs" />
+    <Compile Include="Assets\Scripts\Grid\Tutorial 03\TutorialControllerLvl3.cs" />
+    <Compile Include="Assets\Scripts\SquareTransperancy.cs" />
+    <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem-ascii.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\russian.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors\Shaders\Toony_Colors_RimOutlineHard.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Orthello\Examples\4 - Follow Target View\-orthello-config.xml" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Materials\Outlined-Silhouette Only.shader" />
+    <None Include="Assets\Orthello\-Read-Me.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\JMO Assets\Toony Colors\!ToonyColors Readme.txt" />
+    <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\orthello-font-30.txt" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\img.xml" />
+    <None Include="Assets\8 Bit Retro Rampage Free\Readme.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+    <None Include="Assets\JMO Assets\Toony Colors\Shaders\Toony_Colors_RimLight.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\glyph.xml" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\chalk.xml" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Sci-Fi Music Pack\License.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Orthello\Examples\0 - Simple Examples\Multi Resolution Art\atlas.xml" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors\Shaders\Toony_Colors_RimAlpha.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors\Shaders\Toony_Colors_RimOutline.shader" />
+    <None Include="Assets\Orthello\Standard Assets\OT\_Base\TintedAlpha.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Orthello\Examples\0 - Simple Examples\RotateTowards\-read-me.txt" />
+    <None Include="Assets\JMO Assets\Toony Colors\Shaders\Toony_Colors.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Orthello\Examples\0 - Simple Examples\Persistance\-read-me.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem-rus-utf8.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4B104E38-1561-7E7E-9C76-BC552CAC7AEF}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

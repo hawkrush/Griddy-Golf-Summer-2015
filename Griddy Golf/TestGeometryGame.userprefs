@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Grid/Tutorial 01/BallControllerTut01.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Grid/Relative Position and Location/ResolutionControllers/ResolutionControllerThirdCase.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Relative Position and Location/ResolutionControllers/ResolutionControllerSecondCase.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Relative Position and Location/ResolutionControllers/ResolutionControllerFourthCase.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Relative Position and Location/ResolutionControllers/ResolutionController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Relative Position and Location/SetCameraSize.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Relative Position and Location/ResolutionControllers/ResolutionControllerFifthCase.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Main Level/MenuController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Main Level/BallController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Main Level/GridLines.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Main Level/TileController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Main Level/WinLevelController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Title Screen/ButtonController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Tutorial 01/BallControllerTut01.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

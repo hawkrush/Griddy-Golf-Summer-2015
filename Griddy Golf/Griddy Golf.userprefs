@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Grid/Main Level/TriangleController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Grid/Main Level/WinLevelController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Main Level/ManipulateVertices.cs" Line="64" Column="39" />
+      <File FileName="Assets/Scripts/Grid/Main Level/TriangleController.cs" Line="426" Column="72" />
+      <File FileName="Assets/Scripts/Grid/Title Screen/ButtonController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Grid/Main Level/TileDotsController.cs" Line="54" Column="5" />
+      <File FileName="Assets/Scripts/Grid/Relative Position and Location/ResolutionControllers/ResolutionController.cs" Line="20" Column="18" />
+      <File FileName="Assets/Scripts/Grid/Main Level/BallController.cs" Line="57" Column="23" />
+      <File FileName="Assets/Scripts/Grid/Title Screen/SkipIntroController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
